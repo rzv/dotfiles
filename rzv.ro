@@ -1,0 +1,18 @@
+$TTL	1D	
+$ORIGIN rzv.ro.
+@  1D  IN	 SOA ns1.rzv.ro.	i.rzv.ro. (
+			      2002022401 ; serial
+			      3H ; refresh
+			      15 ; retry
+			      1w ; expire
+			      3h ; minimum
+			     )
+		 	IN  NS   ns1.rzv.ro.
+ 			IN  NS   ns2.rzv.ro.
+   			IN  A      62.244.31.148
+www   		IN  A      62.244.31.148
+ftp   		IN  A      62.244.31.148
+mail   		IN  A      62.244.31.148
+ns1   		IN  A      62.244.31.148
+ns2   		IN  A      62.244.31.148
+rzv.ro.    	IN	MX  10     mail.rzv.ro.
